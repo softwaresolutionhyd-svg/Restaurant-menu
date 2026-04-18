@@ -9,6 +9,65 @@
     body { background: #f4f6f9; }
     .card { border: 0; box-shadow: 0 0.25rem 1rem rgba(15, 20, 25, 0.06); }
     .cat-block { border-left: 4px solid #0d6efd; }
+
+    /* Mobile: baray, readable fields */
+    @media (max-width: 767.98px) {
+      .container { padding-left: 0.75rem; padding-right: 0.75rem; }
+      #panel .card.p-4 { padding: 1rem !important; }
+      #panel .form-control,
+      #panel .form-select {
+        font-size: 1.0625rem;
+        min-height: 3rem;
+        padding: 0.65rem 0.85rem;
+      }
+      #panel .form-label { font-size: 0.95rem; font-weight: 600; }
+
+      .admin-items { margin-bottom: 0; }
+      .admin-items thead { display: none; }
+      .admin-items tbody tr.admin-item-row {
+        display: block;
+        border: 1px solid #dee2e6;
+        border-radius: 0.65rem;
+        margin-bottom: 1rem;
+        padding: 0.85rem 1rem 1rem;
+        background: #fff;
+      }
+      .admin-items tbody td {
+        display: block;
+        width: 100% !important;
+        border: none !important;
+        padding: 0.5rem 0 !important;
+      }
+      .admin-items tbody td:last-child {
+        text-align: end;
+        padding-top: 0.75rem !important;
+      }
+      .admin-items td.it-cell-name::before,
+      .admin-items td.it-cell-price::before,
+      .admin-items td.it-cell-desc::before {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #6c757d;
+        margin-bottom: 0.35rem;
+      }
+      .admin-items td.it-cell-name::before { content: "Item"; }
+      .admin-items td.it-cell-price::before { content: "Price"; }
+      .admin-items td.it-cell-desc::before { content: "Description"; }
+      .admin-items .form-control-sm {
+        font-size: 1.0625rem !important;
+        min-height: 3rem !important;
+        padding: 0.65rem 0.85rem !important;
+      }
+      .admin-items .btn-sm {
+        font-size: 1rem;
+        padding: 0.45rem 0.85rem;
+      }
+      .cat-block .form-control:not(.form-control-sm) {
+        font-size: 1.0625rem;
+        min-height: 3rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -176,8 +235,8 @@
             "</div>" +
             '<button type="button" class="btn btn-outline-danger btn-sm ms-auto remove-cat" data-ci="' + ci + '">Delete category</button>' +
             "</div>" +
-            '<div class="table-responsive"><table class="table table-sm align-middle mb-0">' +
-            "<thead><tr><th>Item</th><th style='width:120px'>Price</th><th>Description</th><th></th></tr></thead>" +
+            '<div class="table-responsive"><table class="table table-sm align-middle mb-0 admin-items">' +
+            "<thead><tr><th>Item</th><th class='text-nowrap' style='min-width:7rem'>Price</th><th>Description</th><th style='width:1%'></th></tr></thead>" +
             '<tbody class="item-rows" data-ci="' + ci + '"></tbody></table></div>' +
             '<button type="button" class="btn btn-outline-primary btn-sm mt-2 add-item" data-ci="' + ci + '">+ Item</button>' +
             "</div>";
@@ -187,11 +246,12 @@
           var tbody = wrap.querySelector(".item-rows");
           cat.items.forEach(function (it, ii) {
             var tr = document.createElement("tr");
+            tr.className = "admin-item-row";
             tr.innerHTML =
-              "<td><input type='text' class='form-control form-control-sm it-name' data-ci='" + ci + "' data-ii='" + ii + "' /></td>" +
-              "<td><input type='number' class='form-control form-control-sm it-price' data-ci='" + ci + "' data-ii='" + ii + "' min='0' step='1' /></td>" +
-              "<td><input type='text' class='form-control form-control-sm it-desc' data-ci='" + ci + "' data-ii='" + ii + "' /></td>" +
-              "<td><button type='button' class='btn btn-sm btn-outline-secondary remove-item' data-ci='" + ci + "' data-ii='" + ii + "'>×</button></td>";
+              "<td class='it-cell-name'><input type='text' class='form-control form-control-sm it-name' data-ci='" + ci + "' data-ii='" + ii + "' /></td>" +
+              "<td class='it-cell-price'><input type='number' inputmode='numeric' class='form-control form-control-sm it-price' data-ci='" + ci + "' data-ii='" + ii + "' min='0' step='1' /></td>" +
+              "<td class='it-cell-desc'><input type='text' class='form-control form-control-sm it-desc' data-ci='" + ci + "' data-ii='" + ii + "' /></td>" +
+              "<td><button type='button' class='btn btn-sm btn-outline-secondary remove-item' data-ci='" + ci + "' data-ii='" + ii + "' aria-label='Remove item'><span class='d-md-none'>Remove</span><span class='d-none d-md-inline' aria-hidden='true'>&times;</span></button></td>";
             tr.querySelector(".it-name").value = it.name;
             tr.querySelector(".it-price").value = it.price === "" ? "" : it.price;
             tr.querySelector(".it-desc").value = it.description;
