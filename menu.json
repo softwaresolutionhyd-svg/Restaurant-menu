@@ -2,7 +2,7 @@
   "restaurantName": "My Restaurant",
   "tagline": "Today's specials & regular menu",
   "menuDate": "2026-04-18",
-  "updatedAt": "2026-04-18T07:47:10.318Z",
+  "updatedAt": "2026-04-18T08:40:00.653Z",
   "currency": "PKR",
   "categories": [
     {
@@ -10,7 +10,7 @@
       "items": [
         {
           "name": "Chicken Soup",
-          "price": 350,
+          "price": 500,
           "description": "Served hot"
         },
         {
