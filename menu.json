@@ -2,7 +2,7 @@
   "restaurantName": "My Restaurant",
   "tagline": "Today's specials & regular menu",
   "menuDate": "2026-04-18",
-  "updatedAt": "2026-04-18T08:40:00.653Z",
+  "updatedAt": "2026-04-18T09:19:36.954Z",
   "currency": "PKR",
   "categories": [
     {
@@ -10,7 +10,7 @@
       "items": [
         {
           "name": "Chicken Soup",
-          "price": 500,
+          "price": 350,
           "description": "Served hot"
         },
         {
@@ -22,6 +22,11 @@
           "name": "Chicken hot Sour Soup",
           "price": 500,
           "description": "Served Hot"
+        },
+        {
+          "name": "Tea",
+          "price": 100,
+          "description": "Served hot"
         }
       ]
     },
