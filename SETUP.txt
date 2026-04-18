@@ -1,0 +1,26 @@
+Restaurant Menu — GitHub Pages + QR (URL same, menu change)
+
+1) GitHub par naya repo banayein aur ye folder push karein.
+
+2) GitHub repo → Settings → Pages:
+   - Source: Deploy from branch
+   - Branch: main (ya jis branch par code hai) / folder: / (root)
+   - Save
+
+3) Thori der baad public URL milegi, misal:
+   https://YOUR_USERNAME.github.io/REPO_NAME/
+
+4) QR code:
+   - Sirf isi URL ka QR banayein (index.html likhna zaroori nahi; default index open ho jata hai).
+   - Roz menu badalne ke baad QR dobara banane ki zaroorat NAHI — URL same rehti hai.
+
+5) Roz ka menu update (admin):
+   - Browser mein admin.html kholen (same site): .../admin.html
+   - admin.html ke andar ADMIN_PIN apna rakhen (deploy se pehle).
+   - Edit karke "Download menu.json" → downloaded file se repo wali menu.json replace karein → commit/push.
+   - Ya GitHub web par menu.json edit karke commit bhi kar sakte hain.
+
+6) PIN sirf basic lock hai — jo bhi page source dekhe ga wo PIN dekh sakta hai.
+   Agar strong security chahiye ho to baad mein login wala backend add karna parega.
+
+Note: index.html har load par naya menu.json fetch karta hai; cache issues kam karne ke liye query string use hoti hai.

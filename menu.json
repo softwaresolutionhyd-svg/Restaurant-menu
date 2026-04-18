@@ -1,0 +1,30 @@
+{
+  "restaurantName": "My Restaurant",
+  "tagline": "Today's specials & regular menu",
+  "menuDate": "2026-04-18",
+  "updatedAt": "2026-04-18T10:00:00.000Z",
+  "currency": "PKR",
+  "categories": [
+    {
+      "name": "Starters",
+      "items": [
+        { "name": "Chicken Soup", "price": 350, "description": "Served hot" },
+        { "name": "Spring Rolls", "price": 450, "description": "6 pieces" }
+      ]
+    },
+    {
+      "name": "Mains",
+      "items": [
+        { "name": "Chicken Karahi (Full)", "price": 2200, "description": "Serves 2" },
+        { "name": "Beef Biryani", "price": 550, "description": "Single plate" }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        { "name": "Fresh Lime", "price": 150, "description": "" },
+        { "name": "Cold Drink", "price": 120, "description": "500ml" }
+      ]
+    }
+  ]
+}
