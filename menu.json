@@ -1,8 +1,8 @@
 {
   "restaurantName": "Barian Cafe",
-  "tagline": "Today's specials & regular menu",
+  "tagline": "Fresh,Flavorful,Crafted With Care",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-04-24T06:58:55.698Z",
+  "updatedAt": "2026-04-24T07:14:13.034Z",
   "currency": "PKR",
   "categories": [
     {
@@ -11,32 +11,32 @@
         {
           "name": "PARATHA",
           "price": 90,
-          "description": "Served hot"
+          "description": ""
         },
         {
           "name": "FRIED EGG",
           "price": 85,
-          "description": "6 pieces"
+          "description": ""
         },
         {
           "name": "OMELETTE",
           "price": 90,
-          "description": "Served Hot"
+          "description": ""
         },
         {
           "name": "CHEESE OMELETTE",
           "price": 200,
-          "description": "Served hot"
+          "description": ""
         },
         {
           "name": "FRENCH TOAST",
           "price": 130,
-          "description": ""
+          "description": "1 pc"
         },
         {
           "name": "EGG KHAKEENA",
           "price": 150,
-          "description": ""
+          "description": "1 ser"
         }
       ]
     },
@@ -46,22 +46,27 @@
         {
           "name": "AALOO BHUJIA",
           "price": 280,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHANNAY",
           "price": 340,
-          "description": ""
+          "description": "2 ser"
         },
         {
           "name": "HALWA",
           "price": 310,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "PURI",
           "price": 65,
           "description": ""
+        },
+        {
+          "name": "Lassi",
+          "price": 0,
+          "description": "1 glass"
         }
       ]
     },
@@ -71,41 +76,36 @@
         {
           "name": "PAKORA",
           "price": 390,
-          "description": ""
+          "description": "small"
         },
         {
           "name": "DAHI BHALLAY",
           "price": 270,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHANA CHAT",
           "price": 230,
-          "description": ""
-        },
-        {
-          "name": "LOADED FRIES",
-          "price": 799,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "ALFREDO PASTA",
           "price": 960,
-          "description": ""
-        },
-        {
-          "name": "CHICKEN BBQ PIZZA",
-          "price": 2150,
-          "description": ""
-        },
-        {
-          "name": "CHICKEN ROLL PARATHA",
-          "price": 420,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CRISPY FRIED WINGS",
           "price": 850,
+          "description": "6 pcs"
+        },
+        {
+          "name": "Zinger burger",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "Chicken patty burger",
+          "price": 0,
           "description": ""
         }
       ]
@@ -184,11 +184,6 @@
           "description": ""
         },
         {
-          "name": "LASSI",
-          "price": 0,
-          "description": ""
-        },
-        {
           "name": "MINERAL WATER (SMALL)",
           "price": 0,
           "description": ""
@@ -251,127 +246,127 @@
         {
           "name": "CHICKEN CORN SOUP",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "HOT & SOUR SOUP",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHICKEN KARAHI",
           "price": 0,
-          "description": ""
+          "description": "full"
         },
         {
           "name": "MAKHNI KARAHI",
           "price": 0,
-          "description": ""
+          "description": "full"
         },
         {
           "name": "WHITE KARAHI",
           "price": 0,
-          "description": ""
+          "description": "full"
         },
         {
           "name": "CHICKEN TIKKA",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHICKEN TIKKA BOTI",
           "price": 0,
-          "description": ""
+          "description": "10 pcs"
         },
         {
           "name": "CHICKEN MALAI BOTI",
           "price": 0,
-          "description": ""
+          "description": "10 pcs"
         },
         {
           "name": "SEEKH KEBAB",
           "price": 0,
-          "description": ""
+          "description": "4 pcs"
         },
         {
           "name": "CHICKEN ROAST",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHICKEN PULAO",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHICKEN QORMA",
           "price": 0,
-          "description": ""
+          "description": "half"
         },
         {
           "name": "CHICKEN BIRYANI",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "PEAS PULAO",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "DAAL CHAWAL",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "EGG FRIED RICE",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHICKEN MANCHURIAN",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "CHICKEN CHOW-MEIN",
           "price": 0,
-          "description": ""
+          "description": "1 ser"
         },
         {
           "name": "MUTTON KARAHI",
           "price": 0,
-          "description": ""
+          "description": "half"
         },
         {
           "name": "MIX VEGETABLE",
           "price": 0,
-          "description": ""
+          "description": "2 ser"
         },
         {
           "name": "PALAK PANEER",
           "price": 0,
-          "description": ""
+          "description": "2 ser"
         },
         {
           "name": "SHAHI DAAL",
           "price": 0,
-          "description": ""
+          "description": "2 ser"
         },
         {
           "name": "DAAL MAASH",
           "price": 0,
-          "description": ""
+          "description": "2 ser"
         },
         {
           "name": "KHEER MIX",
           "price": 0,
-          "description": ""
+          "description": "full"
         },
         {
           "name": "GULAB JAMMAN",
           "price": 0,
-          "description": ""
+          "description": "10 pcs"
         }
       ]
     }
