@@ -2,7 +2,7 @@
   "restaurantName": "Barian Cafe",
   "tagline": "Today's specials & regular menu",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-04-24T06:52:19.037Z",
+  "updatedAt": "2026-04-24T06:58:55.698Z",
   "currency": "PKR",
   "categories": [
     {
@@ -240,6 +240,136 @@
         },
         {
           "name": "NAAN SADA",
+          "price": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Dinner (1900 to 2200 hrs)",
+      "items": [
+        {
+          "name": "CHICKEN CORN SOUP",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "HOT & SOUR SOUP",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN KARAHI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "MAKHNI KARAHI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "WHITE KARAHI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN TIKKA",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN TIKKA BOTI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN MALAI BOTI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "SEEKH KEBAB",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN ROAST",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN PULAO",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN QORMA",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN BIRYANI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "PEAS PULAO",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "DAAL CHAWAL",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "EGG FRIED RICE",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN MANCHURIAN",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN CHOW-MEIN",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "MUTTON KARAHI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "MIX VEGETABLE",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "PALAK PANEER",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "SHAHI DAAL",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "DAAL MAASH",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "KHEER MIX",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "GULAB JAMMAN",
           "price": 0,
           "description": ""
         }
