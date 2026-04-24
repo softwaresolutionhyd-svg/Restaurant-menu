@@ -1,62 +1,247 @@
 {
-  "restaurantName": "My Restaurant",
+  "restaurantName": "Barian Cafe",
   "tagline": "Today's specials & regular menu",
-  "menuDate": "2026-04-18",
-  "updatedAt": "2026-04-18T09:21:59.953Z",
+  "menuDate": "2026-04-24",
+  "updatedAt": "2026-04-24T06:52:19.037Z",
   "currency": "PKR",
   "categories": [
     {
-      "name": "Starters",
+      "name": "Breakfast",
       "items": [
         {
-          "name": "Chicken Soup",
-          "price": 350,
+          "name": "PARATHA",
+          "price": 90,
           "description": "Served hot"
         },
         {
-          "name": "Spring Rolls",
-          "price": 450,
+          "name": "FRIED EGG",
+          "price": 85,
           "description": "6 pieces"
         },
         {
-          "name": "Chicken hot Sour Soup",
-          "price": 500,
+          "name": "OMELETTE",
+          "price": 90,
           "description": "Served Hot"
         },
         {
-          "name": "Tea",
-          "price": 100,
+          "name": "CHEESE OMELETTE",
+          "price": 200,
           "description": "Served hot"
-        }
-      ]
-    },
-    {
-      "name": "Mains",
-      "items": [
-        {
-          "name": "Chicken Karahi (Full)",
-          "price": 2200,
-          "description": "Serves 2"
         },
         {
-          "name": "Beef Biryani",
-          "price": 550,
-          "description": "Single plate"
-        }
-      ]
-    },
-    {
-      "name": "Drinks",
-      "items": [
-        {
-          "name": "Fresh Lime",
-          "price": 150,
+          "name": "FRENCH TOAST",
+          "price": 130,
           "description": ""
         },
         {
-          "name": "Cold Drink",
-          "price": 120,
-          "description": "500ml"
+          "name": "EGG KHAKEENA",
+          "price": 150,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Breakfast (on Weekend 0900 to 1200 hrs)",
+      "items": [
+        {
+          "name": "AALOO BHUJIA",
+          "price": 280,
+          "description": ""
+        },
+        {
+          "name": "CHANNAY",
+          "price": 340,
+          "description": ""
+        },
+        {
+          "name": "HALWA",
+          "price": 310,
+          "description": ""
+        },
+        {
+          "name": "PURI",
+          "price": 65,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Refreshment & Fast Food (1300 to 1800 hrs)",
+      "items": [
+        {
+          "name": "PAKORA",
+          "price": 390,
+          "description": ""
+        },
+        {
+          "name": "DAHI BHALLAY",
+          "price": 270,
+          "description": ""
+        },
+        {
+          "name": "CHANA CHAT",
+          "price": 230,
+          "description": ""
+        },
+        {
+          "name": "LOADED FRIES",
+          "price": 799,
+          "description": ""
+        },
+        {
+          "name": "ALFREDO PASTA",
+          "price": 960,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN BBQ PIZZA",
+          "price": 2150,
+          "description": ""
+        },
+        {
+          "name": "CHICKEN ROLL PARATHA",
+          "price": 420,
+          "description": ""
+        },
+        {
+          "name": "CRISPY FRIED WINGS",
+          "price": 850,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Kids Menu",
+      "items": [
+        {
+          "name": "PLAIN FRIES",
+          "price": 299,
+          "description": ""
+        },
+        {
+          "name": "NUGGETS",
+          "price": 85,
+          "description": ""
+        },
+        {
+          "name": "TENDER POPS",
+          "price": 60,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "MIX TEA",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "CARDAMOM TEA",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "KARAK CHAE",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "DOODH PATTI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "GREEN TEA",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "PESHAWARI KEHWA",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "MILK COFFEE",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "BLACK COFFEE",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "SOFT DRINK (TIN)",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "SOFT DRINK (1.5L)",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "LASSI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "MINERAL WATER (SMALL)",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "MINERAL WATER (LARGE)",
+          "price": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Salads & Condiments",
+      "items": [
+        {
+          "name": "FRESH SALAD",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "RAITA",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "MINT SAUCE",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "RUSSIAN SALAD",
+          "price": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Staples",
+      "items": [
+        {
+          "name": "ROTI",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "NAAN",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "NAAN SADA",
+          "price": 0,
+          "description": ""
         }
       ]
     }
