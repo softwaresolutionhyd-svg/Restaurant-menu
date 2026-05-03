@@ -2,7 +2,7 @@
   "restaurantName": "Barian Cafe",
   "tagline": "Fresh,Flavorful,Crafted With Care",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-04-24T07:14:13.034Z",
+  "updatedAt": "2026-05-03T11:02:35.340Z",
   "currency": "PKR",
   "categories": [
     {
@@ -10,7 +10,7 @@
       "items": [
         {
           "name": "PARATHA",
-          "price": 90,
+          "price": 50,
           "description": ""
         },
         {
