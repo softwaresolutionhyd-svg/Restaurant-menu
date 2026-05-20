@@ -2,7 +2,7 @@
   "restaurantName": "Barian Cafe",
   "tagline": "Fresh,Flavorful,Crafted With Care",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-05-20T05:30:01.486Z",
+  "updatedAt": "2026-05-20T08:08:06.781Z",
   "currency": "PKR",
   "categories": [
     {
@@ -25,7 +25,7 @@
         },
         {
           "name": "CHEESE OMELETTE",
-          "price": 195,
+          "price": 200,
           "description": ""
         },
         {
@@ -45,27 +45,27 @@
       "items": [
         {
           "name": "AALOO BHUJIA",
-          "price": 295,
+          "price": 310,
           "description": "1 ser"
         },
         {
           "name": "CHANNAY",
-          "price": 345,
+          "price": 350,
           "description": "2 ser"
         },
         {
           "name": "HALWA",
-          "price": 290,
+          "price": 295,
           "description": "1 ser"
         },
         {
           "name": "PURI",
           "price": 60,
-          "description": ""
+          "description": "1 pc"
         },
         {
           "name": "Lassi",
-          "price": 155,
+          "price": 140,
           "description": "1 glass"
         }
       ]
@@ -74,23 +74,23 @@
       "name": "Refreshment & Fast Food (1300 to 1800 hrs)",
       "items": [
         {
-          "name": "PAKORA",
-          "price": 385,
+          "name": "PAKORA Large Plate",
+          "price": 410,
           "description": "small"
         },
         {
           "name": "DAHI BHALLAY",
-          "price": 260,
-          "description": "1 ser"
-        },
-        {
-          "name": "CHANA CHAT",
           "price": 230,
           "description": "1 ser"
         },
         {
+          "name": "CHANA CHAT",
+          "price": 220,
+          "description": "1 ser"
+        },
+        {
           "name": "CRISPY FRIED WINGS",
-          "price": 850,
+          "price": 0,
           "description": "6 pcs"
         },
         {
@@ -105,37 +105,37 @@
         },
         {
           "name": "Plain Fries Large",
-          "price": 0,
+          "price": 290,
           "description": ""
         },
         {
           "name": "Nuggets",
-          "price": 0,
+          "price": 80,
           "description": ""
         },
         {
           "name": "Seekh kabab",
-          "price": 0,
+          "price": 130,
           "description": ""
         },
         {
           "name": "Tender Pops",
-          "price": 0,
+          "price": 55,
           "description": ""
         },
         {
           "name": "Club Sandwich",
-          "price": 0,
+          "price": 280,
           "description": ""
         },
         {
           "name": "Sandwich Onebite",
-          "price": 0,
+          "price": 30,
           "description": ""
         },
         {
           "name": "Chicken Sandwich",
-          "price": 0,
+          "price": 110,
           "description": ""
         }
       ]
@@ -150,7 +150,7 @@
         },
         {
           "name": "CARDAMOM TEA",
-          "price": 0,
+          "price": 120,
           "description": ""
         },
         {
@@ -160,12 +160,12 @@
         },
         {
           "name": "DOODH PATTI",
-          "price": 180,
+          "price": 185,
           "description": ""
         },
         {
           "name": "GREEN TEA",
-          "price": 65,
+          "price": 60,
           "description": ""
         },
         {
@@ -175,12 +175,12 @@
         },
         {
           "name": "MILK COFFEE",
-          "price": 225,
+          "price": 230,
           "description": ""
         },
         {
           "name": "BLACK COFFEE",
-          "price": 95,
+          "price": 100,
           "description": ""
         },
         {
@@ -195,12 +195,12 @@
         },
         {
           "name": "MINERAL WATER (SMALL)",
-          "price": 45,
+          "price": 70,
           "description": ""
         },
         {
           "name": "MINERAL WATER (LARGE)",
-          "price": 100,
+          "price": 135,
           "description": ""
         }
       ]
@@ -210,32 +210,17 @@
       "items": [
         {
           "name": "FRESH SALAD",
-          "price": 100,
+          "price": 105,
           "description": ""
         },
         {
           "name": "RAITA",
-          "price": 150,
+          "price": 160,
           "description": ""
         },
         {
           "name": "MINT SAUCE",
-          "price": 120,
-          "description": ""
-        }
-      ]
-    },
-    {
-      "name": "Staples",
-      "items": [
-        {
-          "name": "ROTI",
-          "price": 20,
-          "description": ""
-        },
-        {
-          "name": "NAAN",
-          "price": 35,
+          "price": 119,
           "description": ""
         }
       ]
