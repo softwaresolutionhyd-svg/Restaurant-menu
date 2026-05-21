@@ -261,7 +261,7 @@
 
 <!-- HERO -->
 <header class="hero">
-  <div class="hero-sup">Digital Menu</div>
+  <div class="hero-sup">Fresh &amp; Flavorful</div>
   <h1 id="restaurantName">Loading…</h1>
   <p class="hero-tag" id="tagline"></p>
   <div class="divider-row"><div class="diamond"></div></div>
@@ -293,7 +293,7 @@
   <div class="foot-name" id="footName"></div>
   <div class="foot-info" id="footTagline"></div>
   <div class="foot-line"></div>
-  <p class="foot-copy">All prices in PKR &nbsp;·&nbsp; Menu updates automatically</p>
+  <p class="foot-copy">Thank you for coming &nbsp;·&nbsp; All prices are exclusive of service tax</p>
 </footer>
 
 <script>
@@ -353,12 +353,7 @@
       rname.replace(/(\S+)\s*$/, '<em>$1</em>');
     document.getElementById('tagline').textContent = data.tagline || '';
 
-    const md = data.menuDate || (data.updatedAt || '').slice(0, 10) || '';
-    if (md) {
-      const dateEl = document.getElementById('menuDate');
-      dateEl.textContent = 'Menu for ' + md;
-      dateEl.style.display = 'block';
-    }
+    /* date hidden intentionally */
 
     /* Footer */
     document.getElementById('footName').textContent = rname;
