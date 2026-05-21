@@ -2,7 +2,7 @@
   "restaurantName": "Barian Cafe",
   "tagline": "Fresh,Flavorful,Crafted With Care",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-05-20T08:08:06.781Z",
+  "updatedAt": "2026-05-21T07:36:47.670Z",
   "currency": "PKR",
   "categories": [
     {
@@ -74,7 +74,7 @@
       "name": "Refreshment & Fast Food (1300 to 1800 hrs)",
       "items": [
         {
-          "name": "PAKORA Large Plate",
+          "name": "PAKORA LARGE PLATE",
           "price": 410,
           "description": "small"
         },
@@ -145,7 +145,7 @@
       "items": [
         {
           "name": "MIX TEA",
-          "price": 120,
+          "price": 100,
           "description": ""
         },
         {
