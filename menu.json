@@ -1,8 +1,8 @@
 {
   "restaurantName": "Barian Cafe",
-  "tagline": "Fresh,Flavorful,Crafted With Care",
+  "tagline": "Crafted With Care",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-05-21T07:36:47.670Z",
+  "updatedAt": "2026-05-25T08:22:06.905Z",
   "currency": "PKR",
   "categories": [
     {
@@ -30,7 +30,7 @@
         },
         {
           "name": "FRENCH TOAST",
-          "price": 205,
+          "price": 0,
           "description": "1 pc"
         },
         {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "Breakfast (on Weekend 0900 to 1200 hrs)",
+      "name": "Brunch (on Weekend 0900 to 1200 hrs)",
       "items": [
         {
           "name": "AALOO BHUJIA",
@@ -64,7 +64,7 @@
           "description": "1 pc"
         },
         {
-          "name": "Lassi",
+          "name": "LASSI",
           "price": 140,
           "description": "1 glass"
         }
@@ -74,9 +74,9 @@
       "name": "Refreshment & Fast Food (1300 to 1800 hrs)",
       "items": [
         {
-          "name": "PAKORA LARGE PLATE",
-          "price": 410,
-          "description": "small"
+          "name": "PAKORA",
+          "price": 0,
+          "description": "SMALL"
         },
         {
           "name": "DAHI BHALLAY",
@@ -89,54 +89,44 @@
           "description": "1 ser"
         },
         {
-          "name": "CRISPY FRIED WINGS",
-          "price": 0,
-          "description": "6 pcs"
-        },
-        {
-          "name": "Zinger burger",
+          "name": "ZINGER BURGER",
           "price": 555,
           "description": ""
         },
         {
-          "name": "Chicken patty burger",
+          "name": "CHICKEN PATTY BURGER",
           "price": 300,
           "description": ""
         },
         {
-          "name": "Plain Fries Large",
-          "price": 290,
-          "description": ""
+          "name": "PLAIN FRIES",
+          "price": 0,
+          "description": "SMALL"
         },
         {
-          "name": "Nuggets",
+          "name": "NUGGETS",
           "price": 80,
           "description": ""
         },
         {
-          "name": "Seekh kabab",
+          "name": "SEEKH KABAB",
           "price": 130,
           "description": ""
         },
         {
-          "name": "Tender Pops",
+          "name": "TENDOR POPS",
           "price": 55,
           "description": ""
         },
         {
-          "name": "Club Sandwich",
+          "name": "CLUB SANDWICH",
           "price": 280,
           "description": ""
         },
         {
-          "name": "Sandwich Onebite",
-          "price": 30,
-          "description": ""
-        },
-        {
-          "name": "Chicken Sandwich",
-          "price": 110,
-          "description": ""
+          "name": "ONE BITE SANDWICH",
+          "price": 0,
+          "description": "4 PCS"
         }
       ]
     },
@@ -154,7 +144,7 @@
           "description": ""
         },
         {
-          "name": "KARAK CHAE",
+          "name": "KARAK TEA",
           "price": 0,
           "description": ""
         },
