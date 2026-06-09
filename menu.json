@@ -2,7 +2,7 @@
   "restaurantName": "Barian Cafe",
   "tagline": "Crafted With Care",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-06-09T09:59:50.464Z",
+  "updatedAt": "2026-06-09T10:05:18.674Z",
   "currency": "PKR",
   "categories": [
     {
@@ -75,8 +75,8 @@
       "items": [
         {
           "name": "PAKORA",
-          "price": 435,
-          "description": "SMALL"
+          "price": 200,
+          "description": "Small"
         },
         {
           "name": "DAHI BHALLAY",
@@ -156,11 +156,6 @@
         {
           "name": "GREEN TEA",
           "price": 65,
-          "description": ""
-        },
-        {
-          "name": "PESHAWARI KEHWA",
-          "price": 0,
           "description": ""
         },
         {
