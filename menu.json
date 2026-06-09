@@ -2,7 +2,7 @@
   "restaurantName": "Barian Cafe",
   "tagline": "Crafted With Care",
   "menuDate": "2026-04-24",
-  "updatedAt": "2026-05-25T08:22:06.905Z",
+  "updatedAt": "2026-06-09T04:44:45.014Z",
   "currency": "PKR",
   "categories": [
     {
@@ -10,32 +10,32 @@
       "items": [
         {
           "name": "PARATHA",
-          "price": 85,
+          "price": 90,
           "description": ""
         },
         {
           "name": "FRIED EGG",
-          "price": 75,
+          "price": 80,
           "description": ""
         },
         {
           "name": "OMELETTE",
-          "price": 85,
+          "price": 90,
           "description": ""
         },
         {
           "name": "CHEESE OMELETTE",
-          "price": 200,
+          "price": 210,
           "description": ""
         },
         {
           "name": "FRENCH TOAST",
-          "price": 0,
+          "price": 110,
           "description": "1 pc"
         },
         {
           "name": "EGG KHAKEENA",
-          "price": 155,
+          "price": 170,
           "description": "1 ser"
         }
       ]
@@ -45,27 +45,27 @@
       "items": [
         {
           "name": "AALOO BHUJIA",
-          "price": 310,
+          "price": 330,
           "description": "1 ser"
         },
         {
           "name": "CHANNAY",
-          "price": 350,
-          "description": "2 ser"
+          "price": 370,
+          "description": "1 ser"
         },
         {
           "name": "HALWA",
-          "price": 295,
+          "price": 310,
           "description": "1 ser"
         },
         {
           "name": "PURI",
-          "price": 60,
+          "price": 65,
           "description": "1 pc"
         },
         {
           "name": "LASSI",
-          "price": 140,
+          "price": 130,
           "description": "1 glass"
         }
       ]
@@ -75,7 +75,7 @@
       "items": [
         {
           "name": "PAKORA",
-          "price": 0,
+          "price": 435,
           "description": "SMALL"
         },
         {
@@ -85,7 +85,7 @@
         },
         {
           "name": "CHANA CHAT",
-          "price": 220,
+          "price": 230,
           "description": "1 ser"
         },
         {
@@ -100,17 +100,17 @@
         },
         {
           "name": "PLAIN FRIES",
-          "price": 0,
+          "price": 270,
           "description": "SMALL"
         },
         {
           "name": "NUGGETS",
-          "price": 80,
+          "price": 85,
           "description": ""
         },
         {
           "name": "SEEKH KABAB",
-          "price": 130,
+          "price": 135,
           "description": ""
         },
         {
@@ -120,12 +120,12 @@
         },
         {
           "name": "CLUB SANDWICH",
-          "price": 280,
+          "price": 295,
           "description": ""
         },
         {
           "name": "ONE BITE SANDWICH",
-          "price": 0,
+          "price": 110,
           "description": "4 PCS"
         }
       ]
@@ -135,27 +135,27 @@
       "items": [
         {
           "name": "MIX TEA",
-          "price": 100,
+          "price": 130,
           "description": ""
         },
         {
           "name": "CARDAMOM TEA",
-          "price": 120,
+          "price": 155,
           "description": ""
         },
         {
           "name": "KARAK TEA",
-          "price": 0,
+          "price": 145,
           "description": ""
         },
         {
           "name": "DOODH PATTI",
-          "price": 185,
+          "price": 195,
           "description": ""
         },
         {
           "name": "GREEN TEA",
-          "price": 60,
+          "price": 65,
           "description": ""
         },
         {
@@ -200,7 +200,7 @@
       "items": [
         {
           "name": "FRESH SALAD",
-          "price": 105,
+          "price": 140,
           "description": ""
         },
         {
@@ -210,7 +210,7 @@
         },
         {
           "name": "MINT SAUCE",
-          "price": 119,
+          "price": 120,
           "description": ""
         }
       ]
